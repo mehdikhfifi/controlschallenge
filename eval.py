@@ -12,7 +12,7 @@ from pathlib import Path
 from tqdm import tqdm
 from tqdm.contrib.concurrent import process_map
 
-from tinyphysics import CONTROL_START_IDX, get_available_controllers, run_rollout
+from tinyphysicsfile import CONTROL_START_IDX, get_available_controllers, run_rollout
 
 sns.set_theme()
 SAMPLE_ROLLOUTS = 5
